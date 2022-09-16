@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdracht 3.1</title>
+  </head>
+  <body>
+    <h1>Boekingsformulier TUI</h1>
+    <h2>Gegevens</h2>
+    <form>
+      <label for="fname">Voornaam:</label><br />
+      <input
+        type="text"
+        pattern="[A-Za-z]+"
+        id="fname"
+        name="fname"
+      /><br /><br />
+      <label for="lname">Achternaam:</label><br />
+      <input
+        type="text"
+        pattern="[A-Za-z]+"
+        id="lname"
+        name="lname"
+      /><br /><br />
+      <label for="gender">Geslacht:</label><br />
+      <input
+        type="radio"
+        id="gender"
+        name="gender"
+        value="male"
+        checked="checked"
+      />
+      <label for="male">Man</label><br />
+      <input type="radio" id="gender" name="gender" value="female" />
+      <label for="female">Vrouw</label><br /><br />
+      <label for="fname">Straat met huisnummer:</label><br />
+      <input type="text" id="adres" name="adres" /><br /><br />
+      <label for="fname">Postcode:</label><br />
+      <input type="text" id="postalcode" name="postalcode" /><br /><br />
+      <label for="fname">Stad:</label><br />
+      <input type="text" id="city" name="city" /><br /><br />
+      <label for="fname">Land:</label><br />
+      <input type="text" id="country" name="country" /><br /><br />
+      <label for="fname">BSN:</label><br />
+      <input type="text" id="bsn" name="bsn" maxlength="9" /><br /><br />
+      <label for="holidycountry">Vakantieland:</label><br />
+      <input type="radio" id="france" name="country" value="france" />
+      <label for="male">rusland</label><br />
+      <input type="radio" id="belgium" name="country" value="belgium" />
+      <label for="male">spanje</label><br />
+      <input type="radio" id="japan" name="country" value="japan" />
+      <label for="male">Japan</label><br />
+      <input type="radio" id="usa" name="country" value="usa" />
+      <label for="male">mexico</label><br /><br />
+      <label for="leavedate">Datum van vertrek:</label><br />
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2022-09-16"
+        min="2022-09-16"
+      /><br /><br />
+      <label for="leavedate">Datum van terugkomst:</label><br />
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2022-09-16"
+        min="2022-09-16"
+      /><br /><br />
+      <label for="amountpeople">Aantal reisgenoten (max. 4):</label><br />
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="1"
+        max="4"
+      /><br /><br />
+      <input type="submit" value="Boek nu" /><br /><br />
+    </form>
+
+    <h2>Account</h2>
+    <form>
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br /><br />
+      <label for="password">Wachtwoord:</label><br />
+      <input type="password   " id="password" name="" password />
+    </form>
+  </body>
+</html>
