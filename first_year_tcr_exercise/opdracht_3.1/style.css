@@ -37,3 +37,18 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url(./hacker\ room\ .jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+footer {
+  background-color: #00a8c7;
+  height: 20vh;
+}
