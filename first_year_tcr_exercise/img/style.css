@@ -12,16 +12,14 @@ body {
 
 nav {
   display: flex;
-  width: 100%;
-  padding: 2rem;
+  width: 100vw;
+  padding: 1rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
 }
 nav ul {
   display: flex;
@@ -29,7 +27,7 @@ nav ul {
   list-style-type: none;
 }
 nav li {
-  font-size: 2.5rem;
+  font-size: 1rem;
   padding: 0 4rem 0 4rem;
 }
 nav a {
@@ -39,19 +37,8 @@ nav a {
 nav img {
   width: 5vw;
 }
-.paragraaf {
-  width: 40vw;
-  font-size: large;
-}
-section {
-  height: 100vh;
-  width: 100vw;
-}
 
-.bart-heeft-geen-muziek-smaak {
-  float: right;
-}
-header {
+body {
   background-color: black;
   color: white;
   background-image: url(./hacker\ room\ .jpg);
@@ -61,52 +48,7 @@ header {
   width: 100vw;
   height: 100vh;
 }
-body {
-  background-color: black;
-}
-
 footer {
   background-color: #00a8c7;
   height: 20vh;
-  position: absolute;
-  width: 100vw;
-  text-align: center;
-  font-size: large;
-}
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-p {
-  color: white;
-}
-.bart-heeft-wel-muziek-smaak  {
-  float: left;
-}
-.mysql-afbeelding {
-  float:right;
-}
-.html-afbeelding {
-  float: left;
-}
-.text-html{
-  float: right;
-}
-.text-javascript{
-  float: left;
-}
-.text-php{
-  float: right;
-}
-.text-mysql {
-  float: left;
-}
-h2 {
-  color: white;
-  font-size: 5rem;
-}
-h1 {
-  font-size: 6rem;
 }
