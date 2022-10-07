@@ -1,0 +1,21 @@
+.flexcontainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 0;
+}
+.item {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+.middelitem {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+* {
+    font-size: large;
+}
