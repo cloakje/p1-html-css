@@ -3,7 +3,7 @@
     display: flex;
     width: 1200px;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 .item1 {
   width: 200px;
