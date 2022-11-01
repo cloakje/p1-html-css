@@ -1,6 +1,9 @@
 *{
 margin: 0;
 }
+input {
+    display: none;
+}
 .rood {
  background-color: red;
  height: 10vh;
@@ -32,3 +35,83 @@ section {
 h1{
     padding: 40px;
 }
+@media screen and (max-width: 768px){ 
+    
+.rood {
+    background-color: rgb(0, 229, 255);
+    height: 10vh;
+    color: white;
+    display:flex;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+   }
+   .geel {
+       background-color: aqua;
+   
+   
+   }
+   .oranje {
+       background-color: magenta;
+       
+   
+   }
+   .groen {
+       background-color: darkblue;
+   }
+   section {
+       height: 30vh;
+   }
+   
+   .text{
+       padding: 40px;
+   }
+   h1{
+       padding: 40px;
+   }
+}
+@media screen and (max-width: 576px){ 
+    input{
+        display: block;
+
+    }
+    .rood {
+        background-color: rgb(255, 0, 98);
+        height: 10vh;
+        color: white;
+        display:flex;
+        padding-left: 5px;
+        justify-content: space-between;
+
+       }
+       .geel {
+           background-color: rgb(255, 81, 0);
+       display: flex;
+       
+       }
+       .oranje {
+           background-color: rgb(0, 94, 255);
+           display: flex;
+       
+       }
+       .groen {
+           background-color: rgb(0, 12, 139);
+           display: flex;
+       } 
+       section {
+           height: 30vh;
+           justify-content: center;
+       }
+       
+       .text{
+           padding: 40px;
+           justify-content: center;
+       }
+       h1{
+           padding: 40px;
+       }
+
+       .text h2 {
+        text-align: center ;
+       }
+    }
