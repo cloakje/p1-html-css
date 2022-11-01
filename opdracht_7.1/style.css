@@ -1,0 +1,34 @@
+*{
+margin: 0;
+}
+.rood {
+ background-color: red;
+ height: 10vh;
+ color: white;
+ display:flex;
+ padding-left: 5px;
+ align-items: center;
+}
+.geel {
+    background-color: yellow;
+
+
+}
+.oranje {
+    background-color: orange;
+    
+
+}
+.groen {
+    background-color: green;
+}
+section {
+    height: 30vh;
+}
+
+.text{
+    padding: 40px;
+}
+h1{
+    padding: 40px;
+}
